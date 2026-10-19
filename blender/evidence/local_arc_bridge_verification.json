@@ -1,0 +1,18 @@
+{
+  "base_vertices": 286,
+  "bridge_y_mm": [
+    -22,
+    22
+  ],
+  "crest_x_mm": 85,
+  "crest_z_mm": 87.7,
+  "scope": "Fill missing central solid and join existing arc shoulders to backing front contour; retain exterior curved slopes.",
+  "unchanged_other_objects": 114,
+  "changed_other_objects": [],
+  "central_crest_samples": 45,
+  "central_crest_minmax_mm": [
+    87.7,
+    87.7
+  ],
+  "local_nonmanifold_edges": 0
+}

@@ -1,0 +1,86 @@
+{
+  "source": "CleanLine_154150001.blend",
+  "units": "metres",
+  "parts": [
+    {
+      "name": "01 • EPS 20 mm distance plate",
+      "explosion_mm": [
+        0,
+        0,
+        -24
+      ]
+    },
+    {
+      "name": "02 • EPS supporting body",
+      "explosion_mm": [
+        0,
+        -100,
+        0
+      ]
+    },
+    {
+      "name": "03 • PE-HD trap housing",
+      "explosion_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "04 • Service cover and clips",
+      "explosion_mm": [
+        45,
+        0,
+        65
+      ]
+    },
+    {
+      "name": "05 • DN50 horizontal outlet",
+      "explosion_mm": [
+        75,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "06 • Inlet gasket",
+      "explosion_mm": [
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "name": "07 • Blue locking collar",
+      "explosion_mm": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "name": "08 • Adjustable inlet riser",
+      "explosion_mm": [
+        0,
+        0,
+        80
+      ]
+    },
+    {
+      "name": "09 • Bonding flange",
+      "explosion_mm": [
+        0,
+        0,
+        115
+      ]
+    },
+    {
+      "name": "10 • Removable construction protection box",
+      "explosion_mm": [
+        0,
+        0,
+        170
+      ]
+    }
+  ]
+}

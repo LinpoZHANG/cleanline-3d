@@ -1,0 +1,19 @@
+# Local history and operating-system files
+.local-archive/
+.DS_Store
+Thumbs.db
+# Reproducible dependencies / build output
+node_modules/
+web/dist/
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+*.log
+playwright-report/
+test-results/
+# Local configuration / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
