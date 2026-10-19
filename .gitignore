@@ -17,3 +17,6 @@ test-results/
 !.env.example
 *.pem
 *.key
+
+# Local Vercel project linkage
+.vercel/

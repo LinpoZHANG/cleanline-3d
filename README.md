@@ -32,7 +32,22 @@ npm run build
 npm run preview -- --port 4174
 ```
 
-构建产物位于 `web/dist/`，不提交到仓库。此仓库分享源文件，不自动发布在线网站。
+构建产物位于 `web/dist/`，不提交到仓库。
+
+## 在线演示与部署
+
+正式地址：[cleanline-3d.vercel.app](https://cleanline-3d.vercel.app)。
+
+Vercel 项目使用 `web/` 作为应用目录，配置见 `web/vercel.json`。已通过 CLI 发布；GitHub 自动部署尚未关联。手动更新：
+
+```sh
+cd web
+npx vercel login
+npx vercel link --project cleanline-3d
+npx vercel deploy --prod
+```
+
+若通过 Vercel 导入 GitHub 仓库，将 Root Directory 设置为 `web`，框架选择 Vite。
 
 ## 从 Blender 更新 Web 模型
 
